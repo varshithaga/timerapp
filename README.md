@@ -6,16 +6,27 @@ A beautifully designed, customizable Timer Manager built with **Expo** and **Rea
 
 ## 🚀 Features
 
-- ⏳ **Create unlimited timers** with custom names, durations, and categories.
-- 🗂️ **Group timers by category** with expandable/collapsible views.
-- 🚀 **Bulk controls**: Start / Pause / Reset all timers in a category.
-- 🎯 **Halfway alerts** to keep you notified mid-progress.
-- 📊 **Progress bar and percentage** for each timer.
-- 🌘 **Toggle between Dark and Light mode** with one tap.
-- 🕓 **Timer history log** showing completion time, name, and duration.
-- 🧠 **Local storage using AsyncStorage** — works offline too.
-- 🎛️ **Filter by category** with a stylish dropdown.
-- 📱 Responsive design for Android & iOS using **Expo Router**
+⏳ Create unlimited timers with custom names, durations, and categories.
+
+🗂️ Group timers by category with expandable/collapsible views.
+
+🚀 Bulk Start / Pause / Reset per category — manage timers efficiently.
+
+🎯 Halfway alerts to notify you at 50% completion.
+
+📊 Visual progress bar and percentage tracker for each timer.
+
+🌘 Dark and Light mode toggle for personalized viewing.
+
+🕓 Timer history log with completion time, name, and duration.
+
+📤 Export history log as JSON for analysis or backup.
+
+🧠 Local persistence using AsyncStorage — fully offline-capable.
+
+🎛️ Filter by category with a stylish dropdown selector.
+
+📱 Responsive UI designed for both Android and iOS using Expo Router.
 ---
 
 ## 🛠️ Getting Started
@@ -23,8 +34,8 @@ A beautifully designed, customizable Timer Manager built with **Expo** and **Rea
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/timer-app.git
-cd timer-app
+git clone https://github.com/varshithaga/timerapp.git
+cd timerapp
 
 ```
 
