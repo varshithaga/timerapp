@@ -23,7 +23,7 @@ A beautifully designed, customizable Timer Manager built with **Expo** and **Rea
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/timer-app.git
+git clone https://github.com/varshithaga/timerapp.git
 cd timer-app
 
 ```
