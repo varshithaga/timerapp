@@ -16,9 +16,19 @@ A beautifully designed, customizable Timer Manager built with **Expo** and **Rea
 - 📤 Export history log as JSON for analysis or backup.
 - 🧠 Local persistence using AsyncStorage — fully offline-capable.
 - 🎛️ Filter by category with a stylish dropdown selector.
-
-📱 Responsive UI designed for both Android and iOS using Expo Router.
+-📱 Responsive UI designed for both Android and iOS using Expo Router.
 ---
+
+
+## 📦 Prerequisites
+```bash
+
+Before you begin, ensure you have the following installed:
+Node.js (v16 or newer) 
+Expo CLI → Install globally using:
+<pre>npm install -g expo-cli</pre>
+
+```
 
 ## 🛠️ Getting Started
 
@@ -55,9 +65,9 @@ You can now choose to run the app in:
 timer-app/
 │
 ├── app/                  # Screens and tabs (Home, Timer, History)
-│   ├── index.tsx         # Welcome screen
-│   ├── timer.tsx         # Main timer screen
-│   └── history.tsx       # Timer history screen
+│   ├── index.tsx         # Welcome screen with buttons to navigate to Timer or History
+│   ├── timer.tsx         # Main Timer screen to create, start, pause, reset, delete timers
+│   └── history.tsx       #  Timer history screen to view completed timers
 │
 ├── components/           # Reusable UI components
 ├── utils/
@@ -73,39 +83,15 @@ timer-app/
 ```bash
 
 ⚛️ React Native + TypeScript
-
 📦 Expo + Expo Router
 
 💾 AsyncStorage (local persistence)
-
 🎨 Custom themes (dark/light)
-
 🧭 React Navigation
-
 🧩 Modular structure for scalability
 
 ```
 
-
-Your project is structured like this — all in a single cohesive structure:
-
-app/index.tsx → Welcome screen with buttons to navigate to Timer or History
-
-app/timer.tsx → Main Timer screen to create, start, pause, reset, delete timers
-
-app/history.tsx → Timer history screen to view completed timers
-
-components/HelloWave.tsx → Fun reusable animated greeting
-
-utils/themes.js → Contains lightTheme and darkTheme configuration
-
-app/_layout.tsx → Tab navigation setup with icons for Home, Explore, Timer, and History
-
-assets/ → Store icons, images (if needed)
-
-App.js / app.config.js → Expo config files
-
-README.md → You’re reading it!
 
 
 
