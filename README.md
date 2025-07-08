@@ -26,7 +26,7 @@ A beautifully designed, customizable Timer Manager built with **Expo** and **Rea
 Before you begin, ensure you have the following installed:
 Node.js (v16 or newer) 
 Expo CLI → Install globally using:
-<pre>npm install -g expo-cli</pre>
+npm install -g expo-cli
 
 ```
 
@@ -54,9 +54,8 @@ npx expo start
 
 ```
 
-You can now choose to run the app in:
-
-📱 Expo Go on Android/iOS
+## 📲 Install Expo Go on your smartphone (from Play Store or App Store).
+Once the app is started, scan the QR code in your terminal browser to view the app instantly on your device.
 
 
 ## 📁 Project Structure
@@ -84,7 +83,6 @@ timer-app/
 
 ⚛️ React Native + TypeScript
 📦 Expo + Expo Router
-
 💾 AsyncStorage (local persistence)
 🎨 Custom themes (dark/light)
 🧭 React Navigation
@@ -93,7 +91,8 @@ timer-app/
 ```
 
 
-
+## 📎 Screenshots
+A PDF is attached with screenshots of the app showcasing all major features including:
 
 
 
