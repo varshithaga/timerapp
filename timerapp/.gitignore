@@ -1,0 +1,52 @@
+# -----------------------------------
+# ✅ Common Git Ignore for Expo + React Native
+# -----------------------------------
+
+# Dependencies
+node_modules/
+
+# Expo & Build Outputs
+.expo/
+.expo-shared/
+dist/
+web-build/
+app-example/
+
+# TypeScript
+*.tsbuildinfo
+expo-env.d.ts
+
+# Native Android/iOS Signing Keys
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro Cache
+.metro-health-check*
+
+# Debug Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# macOS Files
+.DS_Store
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Env Files
+.env
+.env.*
+.env*.local
+
+# Kotlin
+.kotlin/
+
+# Other
+*.orig.*
+*.pem
