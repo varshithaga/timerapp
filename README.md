@@ -61,7 +61,7 @@ Once the app is started, scan the QR code in your terminal browser to view the a
 ## 📁 Project Structure
 
 ```bash
-timer-app/
+timerapp/
 │
 ├── app/                  # Screens and tabs (Home, Timer, History)
 │   ├── index.tsx         # Welcome screen with buttons to navigate to Timer or History
